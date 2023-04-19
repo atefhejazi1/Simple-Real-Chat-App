@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js"
+        integrity="sha512-xbQU0+iHqhVt7VIXi6vBJKPh3IQBF5B84sSHdjKiSccyX/1ZI7Vnkt2/8y8uruj63/DVmCxfUNohPNruthTEQA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+    <h2>Chat Messages</h2>
+    <div id="broadcast"></div>
+    <div id="chat">
+
+    </div>
+
+
+
+    <div>
+        <input type="text" placeholder="username" id="username"> <br>
+        <textarea id="message" cols="100" rows="10" placeholder="message"></textarea> <br>
+        <button id="send">Send</button>
+    </div>
+    <script src="client.js"></script>
+</body>
+
+</html>
